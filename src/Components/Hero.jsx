@@ -2,7 +2,7 @@ const Hero = ({ homeRef }) => {
   return (
     <div
       ref={homeRef}
-      className="min-h-[calc(100svh-80px)] w-full bg-bgColor flex flex-col lg:flex-row lg:px-14 px-4 gap-10 lg:gap-0 py-12 lg:py-0"
+      className="min-h-[calc(100svh-80px)] w-full  bg-bgColor flex flex-col lg:flex-row lg:px-14 px-4 gap-10 lg:gap-0 py-12 lg:py-0"
     >
       <div className="lg:w-1/2 w-full  flex flex-col items-center lg:items-start justify-center gap-6 lg:gap-5">
         <h3 className=" text-base lg:text-lg font-semibold text-center">
@@ -28,7 +28,7 @@ const Hero = ({ homeRef }) => {
         </button>
       </div>
       <div className="lg:w-1/2 w-full -order-1 lg:order-1 flex items-center justify-center">
-        <div className="relative flex items-center justify-center h-[200px] w-[280px] lg:h-[400px] lg:w-[480px] rounded-2xl bg-[#8da8b6] overflow-hidden drop-shadow-lg">
+        <div className="relative flex items-center justify-center h-[200px] w-[280px]  lg:h-[400px] lg:w-[480px] rounded-2xl bg-[#8da8b6] overflow-hidden drop-shadow-lg">
           <img
             src="/Photo.png"
             alt="my-photo"
