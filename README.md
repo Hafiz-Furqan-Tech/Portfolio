@@ -1,8 +1,23 @@
-# React + Vite
+# Portfolio Website 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and modern portfolio website built using **React**, styled with **Tailwind CSS**, and deployed on **Netlify**. The project features a fully functional contact form powered by **Netlify Forms**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies Used
+
+- **React.js** - JavaScript library for building user interfaces.
+- **Tailwind CSS** - Utility-first CSS framework for custom designs.
+- **Netlify** - Hosting and form handling for deployment.
+
+---
+
+## 🚀 Features
+
+- **Responsive Design**: Adapts seamlessly to all screen sizes.
+- **Modern UI/UX**: Clean and interactive design.
+- **Contact Form**: Submit messages easily using Netlify Forms.
+
+---
+
+<a href="https://furqan-my-portfolio.netlify.app/">Live Demo <a/>
