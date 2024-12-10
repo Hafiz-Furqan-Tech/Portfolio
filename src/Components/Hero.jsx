@@ -28,7 +28,7 @@ const Hero = ({ homeRef }) => {
         </button>
       </div>
       <div className="lg:w-1/2 w-full -order-1 lg:order-1 flex items-center justify-center">
-        <div className="relative flex items-center justify-center h-[200px] w-[280px] lg:h-[400px] lg:w-[480px] rounded-2xl bg-btnColor overflow-hidden drop-shadow-lg">
+        <div className="relative flex items-center justify-center h-[200px] w-[280px] lg:h-[400px] lg:w-[480px] rounded-2xl bg-[#8da8b6] overflow-hidden drop-shadow-lg">
           <img
             src="/Photo.png"
             alt="my-photo"
