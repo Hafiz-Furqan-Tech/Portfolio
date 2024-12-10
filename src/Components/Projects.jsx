@@ -14,7 +14,7 @@ const Projects = () => {
         </h1>
         <button className="flex hover:text-[#E62872] hover:bg-white hover:border-2 hover:border-[#E62872] bg-[#E62872] hover:scale-105 transition-all duration-[400ms] ease-in-out text-white px-2 lg:px-3 py-3 lg:py-4 rounded-xl lg:gap-2 items-center justify-center">
           <FiGithub className="text-3xl lg:text-2xl text-black" />
-          <a href="https://github.com/Hafiz-Furqan-Tech">
+          <a href="https://github.com/Hafiz-Furqan-Tech" target="blank">
             View All Projects on Github
           </a>
         </button>
@@ -37,6 +37,7 @@ const Projects = () => {
               {obj.para}
             </p>
             <a
+              target="blank"
               href={obj.link}
               className="font-medium text-center lg:justify-start justify-center  lg:text-start w-full flex gap-3 items-center border-b-[1px] border-btnColor"
             >
@@ -44,6 +45,7 @@ const Projects = () => {
               <FaArrowUpLong className="rotate-45 text-xl" />
             </a>
             <a
+              target="blank"
               href={obj.demo}
               className="font-medium w-full flex lg:justify-start justify-center gap-3 items-center border-b-[1px] border-btnColor text-center lg:text-start"
             >

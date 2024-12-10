@@ -32,13 +32,14 @@ const Navbar = ({ pages }) => {
         inset-0 fixed flex  bg-[#F5FCFF] items-center justify-center flex-col gap-10 text-xl font-bold transition-all duration-300 ease-in-out md:right-[55%] lg:hidden`}
       >
         <li
-          className="absolute top-2 right-2  text-3xl hover:scale-110 transition-all duration-200 ease-in-out"
+          className="absolute top-2 right-2  text-3xl hover:scale-110 transition-all duration-200 ease-in-out cursor-pointer"
           onClick={handleToggle}
         >
           <IoClose />
         </li>
         {pages.map((obj, index) => (
           <li
+            className="cursor-pointer"
             key={index}
             onClick={() => (handleToggle(), scrollToSection(obj.ref))}
           >
@@ -59,7 +60,11 @@ const Navbar = ({ pages }) => {
 
       <ul className="hidden items-center gap-6  text-xl font-bold lg:flex">
         {pages.map((obj, index) => (
-          <li key={index} onClick={() => scrollToSection(obj.ref)}>
+          <li
+            className="cursor-pointer"
+            key={index}
+            onClick={() => scrollToSection(obj.ref)}
+          >
             <p>{obj.Page}</p>
           </li>
         ))}

@@ -1,53 +1,64 @@
+import { SiCss3 } from "react-icons/si";
+import { IoCodeSlash } from "react-icons/io5";
+import { FaJsSquare } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaBootstrap } from "react-icons/fa6";
+import { SiMui } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { FaGitAlt } from "react-icons/fa6";
+
 const Data = {
   Skills: [
     {
       skill: "HTML",
-      img: "/Images/Skills/html.png",
+      icon: IoCodeSlash,
       para: "Expert in crafting semantic and responsive web structures using modern HTML5 best practices.",
     },
     {
       skill: "CSS",
-      img: "/Images/Skills/css.png",
+      icon: SiCss3,
       para: "Proficient in styling web pages with CSS3, utilizing Flexbox, Grid, and modern design methods.",
     },
     {
       skill: "Bootstrap",
-      img: "/Images/Skills/bootstrap.png",
+      icon: FaBootstrap,
       para: "Efficient in designing responsive, mobile-first websites using Bootstrap’s powerful toolkit.",
     },
     {
       skill: "Tailwind CSS",
-      img: "/Images/Skills/tailwind.png",
+      icon: RiTailwindCssFill,
       para: "Adept at using Tailwind CSS for utility-first styling and rapid UI development processes.",
     },
     {
       skill: "JavaScript",
-      img: "/Images/Skills/js.png",
+      icon: FaJsSquare,
       para: "Skilled in creating interactive and dynamic web experiences using modern JavaScript (ES6+).",
     },
     {
       skill: "React",
-      img: "/Images/Skills/react.png",
+      icon: FaReact,
       para: "Experienced in building scalable and dynamic user interfaces with React and React Hooks.",
     },
     {
       skill: "Firebase",
-      img: "/Images/Skills/firebase.png",
+      icon: IoLogoFirebase,
       para: "Proficient in Firebase integration for authentication, database management, and app hosting.",
     },
     {
       skill: "Redux Toolkit",
-      img: "/Images/Skills/redux.png",
+      icon: SiRedux,
       para: "Experienced in managing state efficiently using Redux Toolkit with slices and middleware.",
     },
     {
       skill: "MUI (Material-UI)",
-      img: "/Images/Skills/mui.png",
+      icon: SiMui,
       para: "Proficient in building modern, responsive UI designs using MUI’s pre-built components.",
     },
     {
       skill: "Git and GitHub",
-      img: "/Images/Skills/git.png",
+      icon: FaGitAlt,
       para: "Skilled in version control using Git and repository hosting and collaboration on GitHub.",
     },
   ],

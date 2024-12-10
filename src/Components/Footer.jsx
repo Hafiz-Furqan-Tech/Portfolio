@@ -6,7 +6,7 @@ import { scrollToSection } from "../Refs";
 
 const Footer = ({ pages }) => {
   return (
-    <div className="min-h-[400px] flex-col w-full flex items-start justify-center pt-16 px-4 lg:px-14 gap-5 lg:gap-10 bg-bgColor">
+    <div className="min-h-[400px] flex-col w-full flex items-start justify-center pt-16 px-4 lg:px-14 gap-5 lg:gap-10 bg-bgColor py-2 lg:py-0">
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between w-full gap-10 lg:gap-0">
         <img
           src="/logo.png"
@@ -15,7 +15,11 @@ const Footer = ({ pages }) => {
         />
         <ul className="hidden items-center gap-6  text-xl font-bold lg:flex">
           {pages.map((obj, index) => (
-            <li key={index} onClick={() => scrollToSection(obj.ref)}>
+            <li
+              className="cursor-pointer"
+              key={index}
+              onClick={() => scrollToSection(obj.ref)}
+            >
               <p>{obj.Page}</p>
             </li>
           ))}

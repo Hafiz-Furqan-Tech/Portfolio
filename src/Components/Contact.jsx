@@ -36,7 +36,7 @@ const Contact = ({ contactRef }) => {
         />
         <button
           type="submit"
-          className="bg-btnColor text-white text-lg font-medium px-4 py-3 rounded-xl col-span-1 lg:col-span-2 w-full"
+          className="bg-btnColor hover:bg-white hover:text-btnColor hover:border-[1px] hover:border-btnColor transition-all duration[500ms] ease-linear text-white text-lg font-medium px-4 py-3 rounded-xl col-span-1 lg:col-span-2 w-full"
         >
           Submit
         </button>

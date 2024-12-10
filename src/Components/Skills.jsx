@@ -18,11 +18,9 @@ const Skills = ({ skillsRef }) => {
             key={index}
             className=" bg-bgColor flex lg:items-start items-center justify-center flex-col lg:gap-6 gap-4 lg:px-5 px-3 py-6 rounded-xl drop-shadow-xl hover:scale-105 transition-all duration-[300ms] cursor-pointer ease-in-out"
           >
-            <img
-              src={obj.img}
-              alt="skill"
-              className="bg-white px-2 py-2 rounded-lg drop-shadow-xl "
-            />
+            {
+              <obj.icon className="text-[#006867] text-6xl font-bold 2xl:text-7xl" />
+            }
             <p className="text-2xl font-bold">{obj.skill}</p>
             <p className="text-base font-normal tracking-wide text-center lg:text-start">
               {obj.para}
