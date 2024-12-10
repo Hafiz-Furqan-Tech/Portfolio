@@ -20,9 +20,9 @@ const Contact = ({ contactRef }) => {
         className="lg:w-[50%] w-full 2xl:max-w-[700px] grid place-items-center grid-cols-1 lg:grid-cols-2 gap-7"
         name="Contact"
         method="POST"
-        netlify
+        data-netlify="true"
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="Contact" />
         {inputFields.map((field, index) => (
           <div key={index} className="w-full">
             <input
