@@ -16,13 +16,7 @@ const Contact = ({ contactRef }) => {
         If you're looking for a skilled developer to enhance your project, feel
         free to reach out. Let's connect!
       </h3>
-      <form
-        className="lg:w-[50%] w-full 2xl:max-w-[700px] grid place-items-center grid-cols-1 lg:grid-cols-2 gap-7"
-        name="Contact"
-        method="POST"
-        data-netlify="true"
-      >
-        <input type="hidden" name="form-name" value="Contact" />
+      <form className="lg:w-[50%] w-full 2xl:max-w-[700px] grid place-items-center grid-cols-1 lg:grid-cols-2 gap-7">
         {inputFields.map((field, index) => (
           <div key={index} className="w-full">
             <input
