@@ -1,9 +1,9 @@
 const Contact = ({ contactRef }) => {
   const inputFields = [
-    { type: "text", name: "FirstName", placeholder: "First Name" },
-    { type: "text", name: "LastName", placeholder: "Last Name" },
+    { type: "text", name: "firstName", placeholder: "First Name" },
+    { type: "text", name: "lastName", placeholder: "Last Name" },
     { type: "email", name: "email", placeholder: "Email" },
-    { type: "number", name: "PhoneNumber", placeholder: "Phone Number" },
+    { type: "number", name: "phoneNumber", placeholder: "Phone Number" },
   ];
 
   return (
@@ -18,9 +18,11 @@ const Contact = ({ contactRef }) => {
       </h3>
       <form
         className="lg:w-[50%] w-full 2xl:max-w-[700px] grid place-items-center grid-cols-1 lg:grid-cols-2 gap-7"
-        name="ContactUs"
+        name="Contact"
+        method="POST"
         netlify
       >
+        <input type="hidden" name="form-name" value="contact" />
         {inputFields.map((field, index) => (
           <div key={index} className="w-full">
             <input
@@ -34,7 +36,7 @@ const Contact = ({ contactRef }) => {
         <textarea
           rows={5}
           type="text"
-          name="Message"
+          name="message"
           placeholder="Message"
           className="border-2 px-3 py-3 rounded-lg text-lg font-medium text-black placeholder-black border-btnColor outline-none w-full bg-transparent col-span-1 lg:col-span-2"
         />
