@@ -14,7 +14,7 @@ const Projects = () => {
         </h1>
         <button className="flex hover:text-[#E62872] hover:bg-white hover:border-2 hover:border-[#E62872] bg-[#E62872] hover:scale-105 transition-all duration-[400ms] ease-in-out text-white px-2 lg:px-3 py-3 lg:py-4 rounded-xl lg:gap-2 items-center justify-center">
           <FiGithub className="text-3xl lg:text-2xl text-black" />
-          <a href="https://github.com/Hafiz-Furqan-Tech" target="blank">
+          <a href="https://github.com/Hafiz-Muhammad-Furqan" target="blank">
             View All Projects on Github
           </a>
         </button>

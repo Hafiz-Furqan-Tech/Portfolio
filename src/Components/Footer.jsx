@@ -1,7 +1,5 @@
 import { FaFacebookF } from "react-icons/fa6";
-import { SiInstagram } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa";
 import { scrollToSection } from "../Refs";
 
 const Footer = ({ pages }) => {
@@ -25,10 +23,18 @@ const Footer = ({ pages }) => {
           ))}
         </ul>
         <div className="flex items-center justify-center gap-7 text-3xl ">
-          <FaFacebookF className="cursor-pointer hover:scale-105" />
-          <SiInstagram className="cursor-pointer hover:scale-105" />
-          <FaLinkedin className="cursor-pointer hover:scale-105" />
-          <FaTwitter className="cursor-pointer hover:scale-105" />
+          <a
+            href="https://www.facebook.com/profile.php?id=61570352643055"
+            target="blank"
+          >
+            <FaFacebookF className="cursor-pointer hover:scale-105" />{" "}
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hafiz-muhammad-furqan"
+            target="blank"
+          >
+            <FaLinkedin className="cursor-pointer hover:scale-105" />
+          </a>
         </div>
       </div>
       <hr className="h-1 w-full bg-black" />
