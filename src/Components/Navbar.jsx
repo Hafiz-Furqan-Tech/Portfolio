@@ -13,7 +13,7 @@ const Navbar = ({ pages }) => {
       <div>
         <img
           src="/logo.png"
-          className="lg:h-[80px] h-[65px] w-24 lg:w-28 object-cover"
+          className="lg:h-[80px] h-[65px] 2xl:h-[100px] w-24 lg:w-28 2xl:w-[132px] object-cover"
           alt="Logo"
         />
       </div>
@@ -58,7 +58,7 @@ const Navbar = ({ pages }) => {
 
       {/* Laptop View */}
 
-      <ul className="hidden items-center gap-6  text-xl font-bold lg:flex">
+      <ul className="hidden items-center gap-6  2xl:text-2xl text-xl font-bold lg:flex">
         {pages.map((obj, index) => (
           <li
             className="cursor-pointer"
@@ -71,7 +71,7 @@ const Navbar = ({ pages }) => {
       </ul>
       <button
         type="button"
-        className="hidden lg:block text-btnColor outline-none font-medium rounded-lg text-sm px-4 py-2 text-center border-2 border-btnColor hover:text-white hover:bg-btnColor transition-all duration-[500ms] ease-in-out whitespace-nowrap"
+        className="hidden lg:block text-btnColor outline-none font-medium rounded-lg text-sm px-4 py-2 text-center border-2 border-btnColor hover:text-white hover:bg-btnColor transition-all duration-[500ms] ease-in-out whitespace-nowrap 2xl:px-5 2xl:py-3 2xl:font-semibold 2xl:text-base"
       >
         Get started
       </button>
