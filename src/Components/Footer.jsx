@@ -26,7 +26,7 @@ const Footer = ({ pages }) => {
           </ul>
           <div className="flex items-center justify-center gap-7 text-3xl ">
             <a
-              href="https://www.facebook.com/profile.php?id=61570352643055"
+              href="https://www.facebook.com/MuhammadFurqan06/"
               target="blank"
             >
               <FaFacebookF className="cursor-pointer hover:scale-105" />{" "}
